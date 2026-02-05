@@ -1,0 +1,27 @@
+# 忽略 GROMACS 大型二进制结果和轨迹文件
+*.xtc
+*.trr
+*.tpr
+*.edr
+*.gro
+*.cpt
+*.log
+
+# 忽略 GROMACS 自动产生的备份文件
+#*#
+
+# 忽略作业提交产生的输出文件
+*.out
+
+# 忽略力场参数文件夹（通常太大，GitHub 不需要）
+toppar/
+
+# 允许上传的文件类型
+!*.py
+!*.sh
+!*.mdp
+!*.top
+!*.itp
+!*.ndx
+!*.png
+!README.md

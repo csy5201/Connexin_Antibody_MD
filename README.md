@@ -24,7 +24,7 @@ The system's stability was verified through:
 
 ### Visualizations
 - **RMSF Plot**: Segmented analysis for hexamer symmetry and antibody flexibility.
-![RMSF Analysis](rmsf_final_three_panels.png)
+![RMSF Analysis](rmsf_final_superimposed_clean.png)
 
 ## Repository Structure
 - `scripts/`: Python scripts for RMSD/RMSF plotting.
